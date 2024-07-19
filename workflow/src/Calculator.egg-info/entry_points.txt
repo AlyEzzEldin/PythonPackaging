@@ -1,0 +1,2 @@
+[console_scripts]
+RunAddition = addition_package.__main__:RunAddition

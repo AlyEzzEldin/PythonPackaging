@@ -1,0 +1,13 @@
+pyproject.toml
+src/Calculator.egg-info/PKG-INFO
+src/Calculator.egg-info/SOURCES.txt
+src/Calculator.egg-info/dependency_links.txt
+src/Calculator.egg-info/entry_points.txt
+src/Calculator.egg-info/top_level.txt
+src/addition_package/__init__.py
+src/addition_package/__main__.py
+src/addition_package/addition_module.py
+src/multiplication_package/__init__.py
+src/multiplication_package/__main__.py
+src/multiplication_package/multiplication_module.py
+test/test.py

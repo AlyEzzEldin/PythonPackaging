@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Calculator"
+version = "1.0.1"
+
+dependencies = [
+    "opencv-python==4.10.0.84",
+    "numpy==1.24.4",
+]
+
+[project.scripts]
+RunAddition = "addition_package.__main__:RunAddition"
+RunMultiplication = "multiplication_package.__main__:RunMultiplication"
